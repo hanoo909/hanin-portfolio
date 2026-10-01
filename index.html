@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Hanin Fallatah | Portfolio</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+        <img src="images/logo.png.png" alt="Hanin logo" width="80">
+
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">My Skills</a></li>
+            <li><a href="#links">Useful Links</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <button id="theme-button" type="button">Switch Theme</button>
+    </nav>
+</header>
+<main>
+    <section class="hero">
+    <div class="hero-text">
+        <h1>Hello, I'm Hanin Fallatah</h1>
+       <p>
+    I'm Hanin Fallatah, interested in digital marketing,
+    content writing, and user experience design.
+    I'm learning web development to bring my ideas to life
+    and showcase my work.
+</p>
+        <a href="#about">Learn More About Me</a>
+    </div>
+
+    <img
+        class="hero-image"
+        src="images/desck.png.jpg"
+        alt="A workspace with a laptop"
+        width="400"
+    >
+</section>
+    
+<section id="about" class="info-card">
+    <h2>About Me</h2>
+    <p>
+        I'm learning web development to build my personal website
+        and showcase my work.
+    </p>
+</section>
+
+   <section id="skills" class="info-card">
+    <h2>My Skills</h2>
+
+    <ul>
+        <li>Digital Marketing</li>
+        <li>Content Writing</li>
+        <li>User Experience Design</li>
+    </ul>
+</section>
+
+<section id="links" class="info-card">
+    <h2>Useful Links</h2>
+
+    <a href="https://www.udacity.com" target="_blank">
+        Visit Udacity
+    </a>
+</section>
+<section id="contact" class="info-card">
+    <h2>Contact Me</h2>
+
+
+    <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+     <button type="button" id="contact-button">Test Form</button>
+    </form>
+
+    <p id="form-status"></p>
+</section>
+</main>
+<footer>
+    <p>&copy; 2026 Hanin Fallatah. All rights reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

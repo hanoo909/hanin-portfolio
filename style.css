@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #f4f6f8;
+    background-image: url("images/double-bubble.png.webp");
+    background-repeat: repeat;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: #142c50;
+    font-size: 36px;
+}
+
+h2 {
+    color: #142c50;
+    font-size: 24px;
+}
+
+p {
+    font-size: 18px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #1565c0;
+} 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 15px 25px;
+    border-bottom: 2px solid #142c50;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: #142c50;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.hero-text {
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    line-height: 1.8;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.info-card {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border: 1px solid #dce3eb;
+    border-radius: 15px;
+}
+
+.info-card h2 {
+    margin-top: 0;
+}
+
+.info-card p {
+    line-height: 1.8;
+}
+footer {
+    background-color: #142c50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+#theme-button {
+    background-color: #142c50;
+    color: white;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-image: none;
+    background-color: #101827;
+    color: white;
+}
+
+.dark-mode .info-card,
+.dark-mode .navbar {
+    background-color: #1e293b;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode a {
+    color: #a8d8ff;
+}
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #b8c4d3;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+#contact-form button {
+    background-color: #142c50;
+    color: white;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.hero-text a {
+    background-color: #142c50;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
